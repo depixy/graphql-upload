@@ -1,0 +1,11 @@
+root: true
+extends:
+  - "@joshuaavalon/eslint-config-typescript"
+env:
+  es6: true
+  node: true
+overrides:
+  - files:
+      - ./src/*.ts
+    rules:
+      "@typescript-eslint/require-await": "off"
