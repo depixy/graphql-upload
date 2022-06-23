@@ -2,17 +2,15 @@
   "name": "@depixy/graphql-upload",
   "version": "2.0.0",
   "description": "",
-  "main": "./lib/cjs/index.js",
-  "typings": "./lib/cjs/index.d.ts",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
   "type": "module",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "prebuild": "rimraf lib",
-    "build": "npm run build:esm && npm run build:cjs",
-    "build:esm": "tsc --module node16 --outDir lib/esm",
-    "build:cjs": "tsc --module CommonJS --outDir lib/cjs",
+    "build": "tsc",
     "lint": "eslint --ext .ts src"
   },
   "exports": {
@@ -20,10 +18,6 @@
       "import": {
         "types": "./lib/esm/index.d.ts",
         "default": "./lib/esm/index.js"
-      },
-      "require": {
-        "types": "./lib/cjs/index.d.ts",
-        "default": "./lib/cjs/index.js"
       }
     }
   },
