@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/depixy/graphql-upload/compare/v2.0.0...v2.1.0) (2022-06-23)
+
+
+### Features
+
+* esm module ([f73649c](https://github.com/depixy/graphql-upload/commit/f73649c096f6e625b0e4a0b653e644148332c61f))
+
 ## 2.0.0 (2022-06-16)
 
 
