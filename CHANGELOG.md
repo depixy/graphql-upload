@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/depixy/graphql-upload/compare/v2.1.0...v2.1.1) (2022-06-23)
+
+
+### Bug Fixes
+
+* exports ([692e0c1](https://github.com/depixy/graphql-upload/commit/692e0c1b59a36ed6df92af0a9e9e0ac6af3ec260))
+
 ## [2.1.0](https://github.com/depixy/graphql-upload/compare/v2.0.0...v2.1.0) (2022-06-23)
 
 
